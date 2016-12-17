@@ -1,5 +1,5 @@
 Name:		clang
-Version:	3.9.1
+Version:	3.9.0
 Release:	1%{?dist}
 Summary:	A C language family front-end for LLVM
 
