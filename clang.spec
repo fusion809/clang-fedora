@@ -1,6 +1,6 @@
 Name:		clang
-Version:	3.9.0
-Release:	3%{?dist}
+Version:	3.9.1
+Release:	1%{?dist}
 Summary:	A C language family front-end for LLVM
 
 License:	NCSA
@@ -141,6 +141,9 @@ rm -vf %{buildroot}%{_datadir}/clang/clang-format-diff.py*
 %{_mandir}/man1/scan-build.1.*
 
 %changelog
+* Sat Dec 17 2016 Brenton Horne <brentonhorne77@gmail.com> 3.9.1-1
+- new package built with tito
+
 * Mon Nov 14 2016 Nathaniel McCallum <npmccallum@redhat.com> - 3.9.0-3
 - Add Requires: compiler-rt to clang-libs.
 - Without this, compiling with certain CFLAGS breaks.
